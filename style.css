@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2? família=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: o;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    font-size: 100%;
+    background: radial-gradient(240.49% 199.76% at 43.11% 50%, #000000 16.71%, #A51F1F 78.65%, rgba(245, 69, 69, 0) 100%, rgba(245, 69, 69, 0) 100%, rgba(245, 69, 69, 0) 100%, rgba(245, 69, 69, 0) 100%);
+}
+.cabecalho {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.cabecalho-imagem {
+    height: 40px;
+}
+.conteudo {
+    border-top: 0.4px solid  #f5454530;
+    margin-bottom: 40px;
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito {
+    padding-top: 170px;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    height: 307px;
+    
+}
+.conteudo-principal-escrito-botao {
+    background: linear-gradient(98.94deg, rgba(219, 38, 38, 0.64) -194.39%, rgba(190, 128, 128, 0) 121.6%);
+    filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.2));
+    width: 150px;
+    height: 55px;
+    border-radius: 9px;
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19px;
+    color: #ffffff90;
+    padding: 10px;
+}
+.conteudo-principal-escrito-botao:hover {
+    color: #ffffff;
+}
+.conteudo-principal-imagem {
+    height: 767px;
+}
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    margin-top: 48px;
+    border-top: 0.4px solid #f5454530;
+}
+.conteudo-secundario-titulo {
+    padding-top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+}
+.conteudo-secundario-imagem {
+    height: 900px;
+}
+.conteudo-secundario-paragrafo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.conteudo-secundario-paragrafo1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.zap {
+    height: 78px;
+    width: 356px;
+    border-radius: 61px;
+    border: none;
+    background: linear-gradient(80.11deg, #50CA5D 7.3%, #1DBE3D 92.73%);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #ffffff;
+    padding: 10px;
+}
+.orcarmeto {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px;
+}
+.conteudo3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    margin-top: 48px;
+    border-top: 0.4px solid #f5454530;
+    padding-bottom: 30px;
+}
+.final-titulo {
+    padding-top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+}
+.final-paragrafo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 30px;
+}
+.insta {
+    height: 78px;
+    width: 356px;
+    border-radius: 61px;
+    border: none;
+    background: linear-gradient(266.48deg, #505FD2 -15.14%, #D33088 33.19%, #F36C32 94.55%, #FDDB82 160.92%);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #ffffff;
+    padding: 10px;
+}
+.rodape {
+    padding: 7px;
+    border-top: 0.4px #f5454530 solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px;
+}
+.img-rodape {
+    height: 38px;
+    padding-top: 5px;
+    padding-right: 18px;
+}
+.rodape-paragrafo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;    
+}
