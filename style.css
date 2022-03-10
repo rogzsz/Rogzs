@@ -20,8 +20,7 @@ body {
     height: 40px;
 }
 .conteudo {
-    border-top: 0.4px solid  #f5454530;
-    margin-bottom: 40px;
+    border-top: 0.4px solid  #f5454530;           
 }
 .conteudo-principal {
     display: flex;
@@ -49,21 +48,22 @@ body {
     font-style: normal;
     font-weight: 800;
     font-size: 19px;
-    color: #ffffff90;
+    color: #ffffff;
     padding: 10px;
+    text-align: center;
 }
 .conteudo-principal-escrito-botao:hover {
-    color: #ffffff;
+    background: #ffffff;
+    color:#A51F1F
 }
 .conteudo-principal-imagem {
-    height: 767px;
+    height: 690px;
 }
 .conteudo-secundario {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0px;
-    margin-top: 48px;
     border-top: 0.4px solid #f5454530;
 }
 .conteudo-secundario-titulo {
@@ -109,6 +109,11 @@ body {
     font-size: 40px;
     color: #ffffff;
     padding: 10px;
+    text-align: center;
+}
+.zap:hover {
+    background: #ffffff;
+    color: #50CA5D;
 }
 .orcarmeto {
     font-family: Poppins;
@@ -160,6 +165,11 @@ body {
     font-size: 40px;
     color: #ffffff;
     padding: 10px;
+    text-align: center;
+}
+.insta:hover {
+    background: #ffffff;
+    color: #9723b4d7;
 }
 .rodape {
     padding: 7px;
@@ -168,6 +178,7 @@ body {
     flex-direction: row;
     align-items: center;
     gap: 0px;
+    margin-top: 40px;
 }
 .img-rodape {
     height: 38px;
@@ -180,4 +191,134 @@ body {
     font-weight: 300;
     font-size: 12px;
     color: #ffffff;    
+}
+@media screen and (max-width:400px) { 
+    .conteudo {
+        width: 100%;
+    }
+    .cabecalho-imagem {
+        height: 35px;
+    }
+    .conteudo-principal {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 170px;
+    }
+    .conteudo-principal-escrito {
+        padding-top: 80px;
+        padding-left: 20px;
+        gap: 10px;
+        width: 160px;
+        
+    }
+    .conteudo-principal-escrito-botao {
+        width: 63px;
+        height: 20px;
+        border-radius: 4px;
+        font-size: 10px;
+        padding: 2.5px;
+    }
+    .conteudo-principal-escrito-botao:hover {
+        background: #ffffff;
+        color:#A51F1F
+    }
+    .conteudo-principal-imagem {
+        width: 150px;
+    }
+    .conteudo-secundario {
+        height: 550px;
+        width: 100%;
+    }
+    .conteudo-secundario-titulo {
+        padding-top: 5px;
+        font-size: 26px;
+        line-height: 20px;
+    }
+    .conteudo-secundario-imagem {
+        width: 300px;
+    }
+    .conteudo-secundario-paragrafo {
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        color: #ffffff;
+        padding-bottom: 5px;
+        width: 298px;
+    }
+    .conteudo-secundario-paragrafo1 {
+        font-size: 14px;
+        padding-bottom: 0px;
+        width: 190px;
+    }
+    .zap {
+        height: 35px;
+        width: 160px;
+        font-size: 19px;
+        color: #ffffff;
+        padding: 3px;
+    }
+    .zap:hover {
+        background: #ffffff;
+        color: #50CA5D;
+    }
+    .orcarmeto {
+        font-size: 10px;
+        padding: 0px;
+    }
+    .conteudo3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        margin-top: 20px;
+        padding-bottom: 30px;
+        width: 360px;
+        height: 350px;
+    }
+    .final-titulo {
+        padding-top: 16px;
+        font-size: 26px;
+        line-height: 0px;
+    }
+    .final-paragrafo {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        text-align: center;
+        color: #ffffff;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+    }
+    .insta {
+        height: 35px;
+        width: 160px;
+        font-size: 19px;
+        padding: 3px;
+    }
+    .insta:hover {
+        background: #ffffff;
+        color: #9723b4d7;
+    }
+    .rodape {
+        padding: 5px;
+        align-items: center;
+        gap: 0px;
+        margin-top: 30px;
+    }
+    .img-rodape {
+        height: 30px;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-left: 8px;
+    }
+    .rodape-paragrafo {
+        font-size: 9px;    
+        padding-top: 5px;
+    }
 }
