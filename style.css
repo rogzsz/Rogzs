@@ -53,7 +53,7 @@ body {
     text-align: center;
 }
 .conteudo-principal-escrito-botao:hover {
-    background: #ffffff;
+    background: hsl(0, 0%, 100%);
     color:#A51F1F
 }
 .conteudo-principal-imagem {
