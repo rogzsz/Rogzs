@@ -9,6 +9,18 @@ body {
     font-size: 100%;
     background: radial-gradient(240.49% 199.76% at 43.11% 50%, #000000 16.71%, #A51F1F 78.65%, rgba(245, 69, 69, 0) 100%, rgba(245, 69, 69, 0) 100%, rgba(245, 69, 69, 0) 100%, rgba(245, 69, 69, 0) 100%);
 }
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: radial-gradient(240.49% 199.76% at 43.11% 50%, #000000 16.71%, #A51F1F 78.65%, rgba(245, 69, 69, 0) 100%, rgba(245, 69, 69, 0) 100%, rgba(245, 69, 69, 0) 100%, rgba(245, 69, 69, 0) 100%);
+    border-radius: 0px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background: #A51F1F;
+    width: 10px;
+}
 .cabecalho {
     display: flex; 
     flex-direction: row;
